@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+    background-image: linear-gradient(to left, #3061a1, #4966bb, #6d68d0, #9766e0, #c45ee9); 
+}
+h1,h2,p{
+    color: #ffffff;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    font-size: clamp(2.5rem,15vw,150px);
+    margin-top: 200px;
+
+}
+h2{
+    font-size: clamp(1.5rem,5vw,80px);
+    
+}
+
+p{
+    font-size: clamp(1rem,5vw,48px);
+    margin-top: 125px;
+}
+input{
+    border-radius: 100px;
+    
+    width: calc(100% - 80px);
+    height: 92px;
+    display: block;
+    border: none;
+    padding: 0 41px;
+    font-size: 41px;
+    margin: 40px auto;
+}
+input:active,input:focus{
+    border: 0px;
+    opacity: 0.5;
+}
+span::after{
+    content: "Magic 🌈";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+    position: absolute;
+    top: 9px;
+    left: auto;
+    bottom: 0px;
+    right: 9px;
+    width: 313.28px;
+    height: 75px;
+    
+    background-image: linear-gradient(89.63deg, rgba(119, 178, 255, 0.36) 0.65%, #A687FF 100.06%);
+    border-radius: 100px;;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    position: relative;
+    display: block;
+    max-width: 1487px;
+    margin: 32px auto;
+}
