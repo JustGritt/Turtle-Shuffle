@@ -36,9 +36,9 @@ input{
 }
 input:active,input:focus{
     border: 0px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
-span::after{
+/* span::after{
     content: "Magic 🌈";
     font-style: normal;
     font-weight: 400;
@@ -60,10 +60,31 @@ span::after{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 span{
     position: relative;
     display: block;
     max-width: 1487px;
     margin: 32px auto;
+}
+button{
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+    position: absolute;
+    top: 9px;
+    left: auto;
+    bottom: 0px;
+    right: 9px;
+    width: 313.28px;
+    height: 75px;
+    
+    background-image: linear-gradient(89.63deg, rgba(119, 178, 255, 0.36) 0.65%, #A687FF 100.06%);
+    border-radius: 100px;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
